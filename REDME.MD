@@ -1,6 +1,8 @@
 ## 1. Specify on python have negative
 
+reverse text example 'hello' -> olleh
 
+### Code
 ```python
 text = "Hello Baby""
 reverseText = ""
@@ -8,8 +10,11 @@ for index in range (1,len(text)+1):
     reverseText += text[index]
     print(reverseText)
 ```
+Output: ybaB olleH
 ## 2. Simple Reverse string 
+reverse text example 'hello' -> olleh 
 
+### Code
 ```python
 text == "Hello Baby"'
 
@@ -20,8 +25,11 @@ for index in range(len(text)):
     reverseText += text[lestIndex - index]
 print(reverseText)
 ```
+Output: ybaB olleH
 ## 3. find index Odd number of the list
 
+Find Odd index exaple arr=[1,2,3,4] -> newArr=[0,2]
+### Code
 ```python
 arr = [5,7,8,4,3]
 
@@ -31,8 +39,10 @@ for i in range(len(arr)):
         indexOfOdd.append(i)
 print(indexOfOdd)
 ```
+Output: indexOfOdd=[0, 1, 4]
 ## 4. find average of number in list
 
+### Code
 ```python
 arr = [5,7,8,4,3]
 average = 0
@@ -43,7 +53,13 @@ average = sum / len(arr)
 
 print(average)
 ```
+
 ## 5. Find Name of array dictionary
+Find name of Dictionary exaple arr =[
+     {'name':'king', 'age':20}
+     {'name':'Phat', 'age':19}
+     ] -> ['king','Phat']
+### Code
 ```python
 
 arr = [
@@ -54,6 +70,7 @@ arr = [
 for dics in arr:
     print(dics['name'])
 ```
+Output: bopha thida kanha
 ## 6. Sum number in list
 ```python
 arr = [5,7,8,4,3]
